@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Cores Principais */
+    --principal-red: #E3646E;
+    --principal-purple: #BB72E9;
+    --principal-blue: #3996DB;
+    --principal-green: #82BC4F;
+    --principal-yellow: #EABD5F;
+
+    /* Cores Base */
+    --base-100: #E2E4E9;
+    --base-200: #C0C4CE;
+    --base-300: #878EA1;
+    --base-400: #292C34;
+    --base-500: #16181D;
+    --base-600: #0D0E11;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow: hidden;
+}
