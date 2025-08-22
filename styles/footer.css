@@ -9,6 +9,7 @@ footer {
         position: absolute;
         width: 100%;
         height: 100%;
+        object-fit: cover;
         z-index: -1;
     }
 
@@ -34,6 +35,11 @@ footer {
         font-weight: 300;
         margin-top: 10px;
     }
+
+    & a {
+        list-style: none;
+        text-decoration: none;
+    }
 }
 
 ul {
@@ -42,16 +48,32 @@ ul {
 
     background-color: var(--base-400);
     border-radius: 8px;
+    list-style: none;
+
     width: 400px;
 }
+
+ul:hover {
+    outline: 2px solid var(--principal-blue);
+
+    & svg {
+        fill: #3996DB;
+    }
+}
+
 
 li {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 12px;
 
     font-family: 'Asap', sans-serif;
     color: var(--base-200);
+}
+
+.link {
+    margin-left: auto;
 }
 
 .contacts-container {

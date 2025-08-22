@@ -83,8 +83,6 @@ img[src*="arrow"] {
     .my-works {
         flex-direction: column;
         align-items: center;
-
-        
     }
 
     .card {

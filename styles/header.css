@@ -25,6 +25,14 @@ header {
         border-radius: 50%;
         object-fit: cover;
         border: 2px solid var(--principal-red);
+        padding: 4px;
+        position: relative;
+    }
+
+    svg {
+        position: absolute;
+        top: 182px;
+        right: 46%;
     }
 
     h1 {
@@ -86,17 +94,30 @@ header {
         margin-top: 60px;
     }
 
+    .container h3 {
+        font-size: 16px;
+    }
+
     .container img {
         width: 80px;
         height: 80px;
     }
 
     .container h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .container p {
         font-size: 12px;
+    }
+
+    .container svg {
+        position: absolute;
+        top: 100px;
+        right: 37%;
+
+        width: 35px;
+        height: 35px;
     }
 
     .icons {
