@@ -96,4 +96,12 @@ img[src*="arrow"] {
             font-size: 14px;
         }
     }
+
+    .my-works .carros {
+        height: 130px;
+    }
+
+    main h1 {
+        font-size: 30px;
+    }
 }

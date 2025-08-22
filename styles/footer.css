@@ -84,4 +84,8 @@ li {
     ul {
         width: 300px;
     }
+
+    .contacts-container p{
+        font-size: 14px;
+    }
 }

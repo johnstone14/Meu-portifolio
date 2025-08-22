@@ -54,3 +54,24 @@ nav {
         font-weight: 400;
     }
 }
+
+.services-container {
+    display: flex;
+    gap: 24px;
+}
+
+@media (max-width: 768px) {
+    nav h1 {
+        font-size: 20px;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .services:nth-child(1) {
+        margin-bottom: 0;
+    }
+}

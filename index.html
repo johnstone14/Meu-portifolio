@@ -51,13 +51,13 @@
 
         <div class="my-works">
             <div class="two-cards">
-                <a href="https://johnstone14.github.io/Tech-news/" class="card">
+                <a href="https://johnstone14.github.io/Tech-news/" class="card" target="_blank">
                     <img src="./assets/images/Thumbnail_Project-02.png" alt="">
                     <h3>Tech news</h3>
                     <p>Homepage de um portal de notícias sobre a área de tecnologia.</p>
                 </a>
 
-                <a href="https://johnstone14.github.io/Conversor-de-moedas/" class="card">
+                <a href="https://johnstone14.github.io/Conversor-de-moedas/" class="card" target="_blank">
                     <img src="./assets/images/Thumbnail_Project-03.png" alt="">
                     <h3>Conversor de moedas</h3>
                     <p>Aplicação interativa para converter valores entre diferentes moedas usando JavaScript.</p>
@@ -66,13 +66,13 @@
 
 
             <div class="two-cards">
-                <a href="https://johnstone14.github.io/Zingen---Karaoke--/" class="card">
+                <a href="https://johnstone14.github.io/Zingen---Karaoke--/" class="card" target="_blank">
                     <img src="./assets/images/Thumbnail_Project-04.png" alt="">
                     <h3>Zingen</h3>
                     <p>Landing Page completa e responsiva de um aplicativo de Karaokê</p>
                 </a>
 
-                <a href="https://johnstone14.github.io/Results-summary-component/" class="card">
+                <a href="https://johnstone14.github.io/Results-summary-component/" class="card" target="_blank">
                     <img src="./assets/images/Thumbnail_Project-06.png" alt="">
                     <h3>Results summary component</h3>
                     <p>Exemplo de um componente que exibe o resultado de um teste.</p>
@@ -80,14 +80,14 @@
             </div>
 
             <div class="two-cards">
-                <a href="https://johnstone14.github.io/pagina-de-receita/" class="card">
+                <a href="https://johnstone14.github.io/pagina-de-receita/" class="card" target="_blank">
                     <img src="./assets/images/Thumbnail_Project-05.png" alt="">
                     <h3>Página de receita</h3>
                     <p>Página com o passo a passo de uma receita para cupcakes.</p>
                 </a>
 
-                <a href="https://johnstone14.github.io/pagina-de-receita/" class="card">
-                    <img src="./assets/images/Thumbnail_Project-01.png" alt="" style="height: 130px;">
+                <a href="https://johnstone14.github.io/pagina-de-receita/" class="card" target="_blank">
+                    <img src="./assets/images/Thumbnail_Project-01.png" alt="" class="carros">
                     <h3>Projeto carros</h3>
                     <p>Página informativa sobre diversos modelos e características de carros.</p>
                 </a>
@@ -101,12 +101,21 @@
         <h2>Meus serviços</h2>
         <h1>Como posso ajudar o seu negócio</h1>
 
-        <div class="services">
-            <img src="./assets/svg/PC.svg" alt="">
+        <div class="services-container">
+            <div class="services">
+                <img src="./assets/svg/PC.svg" alt="">
 
-            <h3>web design</h3>
-            <p>Desenvolvimento de interfaces</p>
+                <h3>Web design</h3>
+                <p>Desenvolvimento de interfaces</p>
+            </div>
+            <div class="services">
+                <img src="./assets/svg/banco-de-dados.svg" alt="">
+
+                <h3>JavaScript</h3>
+                <p>Criação de serviços do sistema</p>
+            </div>
         </div>
+
     </nav>
 
     <footer>
@@ -118,16 +127,19 @@
 
 
         </div>
-        <ul>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#878EA1" class="bi bi-envelope"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
-                </svg>
-                E-mail<img src="./assets/svg/link.svg" alt="" class="link"></li>
-        </ul>
 
-        <a href="https://github.com/johnstone14">
+        <a href="mailto:joaopedracombat13@gmail.com">
+            <ul>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#878EA1" class="bi bi-envelope"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+                    E-mail<img src="./assets/svg/link.svg" alt="" class="link"></li>
+            </ul>
+        </a>
+
+        <a href="https://github.com/johnstone14" target="_blank">
             <ul>
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="#878EA1" class="bi bi-github"
                         viewBox="0 0 16 16">
@@ -139,14 +151,16 @@
             </ul>
         </a>
 
+        <a href="https://wa.me/5513997568735" target="_blank" class="whatsapp-button">
+            <ul>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#878EA1" class="bi bi-whatsapp"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg>Whatsapp<img src="./assets/svg/link.svg" alt="" class="link"></li>
+            </ul>
+        </a>
 
-        <ul>
-            <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#878EA1" class="bi bi-whatsapp"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                </svg>Whatsapp<img src="./assets/svg/link.svg" alt="" class="link"></li>
-        </ul>
     </footer>
 </body>
 
