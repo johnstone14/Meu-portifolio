@@ -104,4 +104,11 @@ img[src*="arrow"] {
     main h1 {
         font-size: 30px;
     }
+
+    .two-cards {
+        & .bento {
+            height: 136px;
+        }
+    }
+
 }
